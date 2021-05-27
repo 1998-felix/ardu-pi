@@ -2,7 +2,7 @@ import serial
 
 
 if __name__ == '__main__':
-    ard = serial.Serial("/dev/ttyACMO", 9600, timeout=1)
+    ard = serial.Serial("/dev/ttyACM0", 9600, timeout=1)
     ard.flush()
 
     while True:
